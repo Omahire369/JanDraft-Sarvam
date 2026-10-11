@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="275" height="40" role="img" aria-label="Deploy your own on Vercel">
+  <title>Deploy your own on Vercel</title>
+  <rect width="275" height="40" rx="8" fill="#111111"/>
+  <rect x="0.5" y="0.5" width="274" height="39" rx="7.5" fill="none" stroke="#8b949e" stroke-opacity="0.45"/>
+  <g transform="translate(18, 11) scale(0.75)" fill="none" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4 21 20H3Z" fill="#ffffff" stroke="none"/></g>
+  <text x="150.5" y="25" fill="#ffffff" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="14" font-weight="bold" text-anchor="middle" textLength="213" lengthAdjust="spacingAndGlyphs">Deploy your own on Vercel</text>
+</svg>

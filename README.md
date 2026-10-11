@@ -6,15 +6,16 @@
 
 A multilingual grievance drafting assistant for Indian citizens, powered by [Sarvam AI](https://www.sarvam.ai/).
 
-### 🔗 Live demo: **[jandraft-sarvam.vercel.app](https://jandraft-sarvam.vercel.app)**
+<a href="https://jandraft-sarvam.vercel.app"><img src="docs/badges/live-demo.svg" alt="Open the live demo" height="40"></a>
 
-[![Live on Vercel](https://img.shields.io/badge/Live%20demo-jandraft--sarvam.vercel.app-0e6b5c?style=for-the-badge&logo=vercel&logoColor=white)](https://jandraft-sarvam.vercel.app)
+**Live demo: [jandraft-sarvam.vercel.app](https://jandraft-sarvam.vercel.app)**
 
-![Next.js](https://img.shields.io/badge/Next.js-16.4-000000?logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
-![Sarvam AI](https://img.shields.io/badge/Sarvam%20AI-sarvam--105b-ff6b35)
+<img src="docs/badges/nextjs.svg" alt="Next.js 16.4" height="20">
+<img src="docs/badges/react.svg" alt="React 19" height="20">
+<img src="docs/badges/typescript.svg" alt="TypeScript 5" height="20">
+<img src="docs/badges/tailwind.svg" alt="Tailwind CSS 4" height="20">
+<img src="docs/badges/sarvam.svg" alt="Sarvam AI sarvam-105b" height="20">
+<img src="docs/badges/vercel.svg" alt="Deployed on Vercel" height="20">
 
 </div>
 
@@ -193,7 +194,9 @@ Open http://localhost:3000.
 
 ## Deploy your own copy on Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOmahire369%2FJanDraft-Sarvam&env=SARVAM_API_KEY&envDescription=Sarvam%20AI%20API%20subscription%20key&envLink=https%3A%2F%2Fdashboard.sarvam.ai)
+<a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FOmahire369%2FJanDraft-Sarvam&env=SARVAM_API_KEY&envDescription=Sarvam%20AI%20API%20subscription%20key&envLink=https%3A%2F%2Fdashboard.sarvam.ai"><img src="docs/badges/deploy-vercel.svg" alt="Deploy your own on Vercel" height="40"></a>
+
+One click clones this repo into your GitHub and asks for `SARVAM_API_KEY` before the first build.
 
 Or do it by hand:
 

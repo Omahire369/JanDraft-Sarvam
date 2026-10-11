@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="20" role="img" aria-label="Deployed on: Vercel">
+  <title>Deployed on: Vercel</title>
+  <clipPath id="r"><rect width="131" height="20" rx="3" fill="#fff"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="81" height="20" fill="#3d4450"/>
+    <rect x="81" width="50" height="20" fill="#111111"/>
+  </g>
+  <rect x="0.5" y="0.5" width="130" height="19" rx="2.5" fill="none" stroke="#8b949e" stroke-opacity="0.45"/>
+  <g fill="#fff" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-anchor="middle">
+    <text x="40.5" y="14" textLength="69" lengthAdjust="spacingAndGlyphs">Deployed on</text>
+    <text x="106" y="14" textLength="38" lengthAdjust="spacingAndGlyphs">Vercel</text>
+  </g>
+</svg>
