@@ -17,6 +17,8 @@ A multilingual grievance drafting assistant for Indian citizens, powered by [Sar
 <img src="docs/badges/sarvam.svg" alt="Sarvam AI sarvam-105b" height="20">
 <img src="docs/badges/vercel.svg" alt="Deployed on Vercel" height="20">
 
+<br><br>
+
 </div>
 
 ![JanDraft home page](docs/screenshots/home.png)
@@ -68,14 +70,7 @@ JanDraft is designed as a careful civic tool, not a chatbot:
 
 ## How it works
 
-```mermaid
-flowchart LR
-    U["Citizen<br/>(browser)"] -->|"complaint, location,<br/>category, language"| R["POST /api/draft<br/>(Next.js route handler)"]
-    R -->|"1. validate input"| R
-    R -->|"2. detect script and<br/>resolve target language"| S["Sarvam AI<br/>chat/completions<br/>sarvam-105b · JSON mode"]
-    S -->|"JSON draft"| R
-    R -->|"3. parse, normalise,<br/>check language,<br/>retry once if needed"| U
-```
+<img src="docs/architecture.svg" alt="Architecture: the browser sends the complaint to POST /api/draft, which validates it, detects the target language, calls Sarvam AI with the server-only key, then parses, checks and returns the draft" width="100%">
 
 1. **Validate.** The complaint must be 30–4,000 characters, location up to 120, and category and language must come from fixed lists. The request body is capped at 32 KB.
 2. **Resolve the language.** For *Same as my complaint*, the server counts Devanagari, Bengali, Tamil and Latin characters and gives the model an explicit target language. This prevents Hindi complaints from coming back in English.
@@ -268,7 +263,10 @@ src/
 └── lib/
     ├── grievance.ts            # Shared types, limits, languages, categories
     └── sarvam.ts               # Sarvam request, system prompt, JSON parsing, language checks, retries
-docs/screenshots/               # README images
+docs/
+├── architecture.svg            # "How it works" diagram
+├── badges/                     # Self-hosted README badges and buttons
+└── screenshots/                # Screenshots of the live app
 .env.example                    # SARVAM_API_KEY placeholder
 ```
 
